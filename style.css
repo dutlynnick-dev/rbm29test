@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.bg {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at top, rgba(168,85,247,0.4), transparent);
+  z-index: 0;
+}
+
+header, section {
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 45px;
+  color: #c084fc;
+}
+
+.hero {
+  padding: 60px 20px;
+}
+
+.hero span {
+  color: #a855f7;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #a855f7;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.box {
+  background: rgba(255,255,255,0.05);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 15px;
+}
+
+#chat {
+  min-height: 120px;
+  margin-bottom: 10px;
+  text-align: left;
+}
